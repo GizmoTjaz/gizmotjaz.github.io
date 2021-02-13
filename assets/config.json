@@ -1,0 +1,55 @@
+{
+    "projects": [
+        {
+            "name": "Kyūbu",
+            "url": "https://github.com/GizmoTjaz/kyuubu",
+            "description": "A 3D shape renderer written in vanilla JS using the HTML canvas.",
+            "languages": [
+                "html",
+                "js"
+            ]
+        },
+        {
+            "name": "Yomu",
+            "url": "https://github.com/GizmoTjaz/yomu",
+            "description": "Mobile manga reading app built using React Native.",
+            "languages": [
+                "js",
+                "react-native"
+            ]
+        },
+        {
+            "name": "Gizmo Browser",
+            "url": "https://github.com/GizmoDevelopment/gizmo-browser",
+            "description": "Simplistic web browser with theming support and auto-update.",
+            "languages": [
+                "html",
+                "css",
+                "js",
+                "react",
+                "electron"
+            ]
+        },
+        {
+            "name": "Gizmo Music",
+            "url": "https://github.com/GizmoDevelopment/gizmo-music",
+            "description": "Local music player with theming support, Gizmo accounts, playlists and other wonderful features.",
+            "languages": [
+                "html",
+                "css",
+                "js",
+                "jquery",
+                "electron"
+            ]
+        }
+    ],
+    "languages": {
+        "js": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png",
+        "react-native": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react-native/react-native.png",
+        "html": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
+        "css": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
+        "react": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
+        "electron": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/electron/electron.png",
+        "jquery": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"
+    }
+}
