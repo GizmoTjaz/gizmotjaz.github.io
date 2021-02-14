@@ -83,16 +83,20 @@
         flex-direction: row;
     }
 
-    .project-languages * {
-        margin-left: 3px;
-    }
-
     .project-controls {
         position: absolute;
         right: 0;
         bottom: 0;
         padding-right: 10px;
         padding-bottom: 10px;
+    }
+
+    @media screen and (max-width: 1050px) {
+        
+        .project-title {
+            font-size: 15px;
+        }
+
     }
 
 </style>

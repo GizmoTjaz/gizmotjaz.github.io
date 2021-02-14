@@ -36,4 +36,12 @@
         cursor: pointer;
     }
 
+    @media screen and (max-width: 1050px) {
+        
+        ion-icon {
+            font-size: 15px;
+        }
+
+    }
+
 </style>

@@ -54,9 +54,23 @@
   }
 
   #profile-picture {
-    width: 360px;
-    height: 360px;
+    width: 330px;
+    height: 330px;
     border-radius: 100%;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 1050px) {
+    
+    #profile-picture {
+      width: 150px;
+      height: 150px
+    }
+
+    #project-container {
+      width: 95%;
+    }
+
   }
 
 </style>
