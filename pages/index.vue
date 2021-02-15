@@ -3,8 +3,12 @@
     <div v-if="profilePicture">
       <img id="profile-picture" :src="profilePicture" alt="My GitHub profile picture">
     </div>
-    <h1>Projects</h1>
-    <div id="project-container" v-for="(project, index) in projects" :key="index">
+    <h1>Personal Projects</h1>
+    <div class="project-container" v-for="(project, index) in personalProjects" :key="index">
+      <ProjectCard :project="project" />
+    </div>
+    <h1>Gizmo Projects</h1>
+    <div class="project-container" v-for="(project, index) in gizmoProjects" :key="index">
       <ProjectCard :project="project" />
     </div>
   </div>
@@ -25,9 +29,12 @@
     },
     data () {
       return {
-        projects: config.projects,
         profilePicture: null
       };
+    },
+    computed: {
+      personalProjects: () => config.personalProjects,
+      gizmoProjects: () => config.gizmoProjects
     },
     async mounted () {
 
@@ -47,7 +54,7 @@
     align-items: center;
   }
 
-  #project-container {
+  .project-container {
     width: 70%;
     display: flex;
     flex-direction: column;

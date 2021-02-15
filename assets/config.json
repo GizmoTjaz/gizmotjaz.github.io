@@ -1,5 +1,5 @@
 {
-    "projects": [
+    "personalProjects": [
         {
             "name": "Kyūbu",
             "url": "https://github.com/GizmoTjaz/kyuubu",
@@ -18,6 +18,16 @@
                 "react-native"
             ]
         },
+        {
+            "name": "BadAppleJS",
+            "url": "https://github.com/GizmoTjaz/bad-apple",
+            "description": "Plays Bad Apple inside your terminal, because why not?",
+            "languages": [
+                "js"
+            ]
+        }
+    ],
+    "gizmoProjects": [
         {
             "name": "Gizmo Browser",
             "url": "https://github.com/GizmoDevelopment/gizmo-browser",
