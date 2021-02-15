@@ -3,10 +3,10 @@
         {
             "name": "Kyūbu",
             "url": "https://github.com/GizmoTjaz/kyuubu",
-            "description": "A 3D shape renderer written in vanilla JS using the HTML canvas.",
+            "description": "A 3D shape renderer written in TypeScript using the HTML canvas.",
             "languages": [
-                "html",
-                "js"
+                "ts",
+                "html"
             ]
         },
         {
@@ -33,10 +33,10 @@
             "url": "https://github.com/GizmoDevelopment/gizmo-browser",
             "description": "Simplistic web browser with theming support and auto-update.",
             "languages": [
-                "html",
-                "css",
                 "js",
                 "react",
+                "html",
+                "css",
                 "electron"
             ]
         },
@@ -45,16 +45,17 @@
             "url": "https://github.com/GizmoDevelopment/gizmo-music",
             "description": "Local music player with theming support, Gizmo accounts, playlists and other wonderful features.",
             "languages": [
-                "html",
-                "css",
                 "js",
                 "jquery",
+                "html",
+                "css",
                 "electron"
             ]
         }
     ],
     "languages": {
         "js": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png",
+        "ts": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png",
         "react-native": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react-native/react-native.png",
         "html": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
         "css": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
