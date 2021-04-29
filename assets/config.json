@@ -2,6 +2,7 @@
     "personalProjects": [
         {
             "name": "Kyūbu",
+			"logo": "",
             "url": "https://github.com/GizmoTjaz/kyuubu",
             "description": "A 3D shape renderer written in TypeScript using the HTML canvas.",
             "languages": [
@@ -11,11 +12,22 @@
         },
         {
             "name": "Yomu",
+			"logo": "",
             "url": "https://github.com/GizmoTjaz/yomu",
             "description": "Mobile manga reading app built using React Native.",
             "languages": [
                 "js",
                 "react-native"
+            ]
+        },
+		{
+            "name": "Ramune",
+			"logo": "",
+            "url": "https://github.com/GizmoDevelopment/ramune",
+            "description": "Watch anime together with your friends.",
+            "languages": [
+                "ts",
+                "vue"
             ]
         },
         {
@@ -30,6 +42,7 @@
     "gizmoProjects": [
         {
             "name": "Gizmo Browser",
+			"logo": "",
             "url": "https://github.com/GizmoDevelopment/gizmo-browser",
             "description": "Simplistic web browser with theming support and auto-update.",
             "languages": [
@@ -42,6 +55,7 @@
         },
         {
             "name": "Gizmo Music",
+			"logo": "",
             "url": "https://www.gizmo.moe/software/gizmomusic",
             "description": "Local music player with theming support, playlists and other wonderful features.",
             "languages": [
@@ -61,6 +75,7 @@
         "css": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
         "react": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
         "electron": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/electron/electron.png",
-        "jquery": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"
+        "jquery": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png",
+        "vue": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
     }
 }
