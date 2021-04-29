@@ -70,15 +70,18 @@
     }
 
 	.project-info {
+		margin-top: 15px;
+		margin-bottom: 5px;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 		align-content: center;
+		align-items: center;
 	}
 
     .project-title {
-        margin-top: 15px;
-		margin-bottom: 5px;
+        margin-top: 0;
+		margin-bottom: 0;
     }
 
     .project-languages-container {
@@ -105,6 +108,7 @@
 	.project-logo {
 		width: auto;
 		height: 29px;
+		margin-right: 5px;
 	}
 
     @media screen and (max-width: 1050px) {
