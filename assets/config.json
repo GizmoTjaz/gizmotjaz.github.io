@@ -31,11 +31,11 @@
             ]
         },
         {
-            "name": "BadAppleJS",
+            "name": "Bad Apple",
             "url": "https://github.com/GizmoTjaz/bad-apple",
-            "description": "Plays Bad Apple inside your terminal, because why not?",
+            "description": "An NPM package that can play Bad Apple inside your terminal.",
             "languages": [
-                "js"
+                "ts"
             ]
         }
     ],
