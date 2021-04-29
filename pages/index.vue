@@ -48,36 +48,55 @@
 
 <style scoped>
 
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+	#container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-  .project-container {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-  }
+	.project-container {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+	}
 
-  #profile-picture {
-    width: 330px;
-    height: 330px;
-    border-radius: 100%;
-    margin-top: 20px;
-  }
+	#profile-picture {
+		width: auto;
+		height: 330px;
+		border-radius: 100%;
+		margin-top: 20px;
+	}
 
-  @media screen and (max-width: 1050px) {
-    
-    #profile-picture {
-      width: 150px;
-      height: 150px
-    }
+	@media screen and (max-width: 1950px) {
 
-    #project-container {
-      width: 95%;
-    }
+		.project-container {
+			width: 60%;
+		}
 
-  }
+	}
+
+	@media screen and (max-width: 1300px) {
+
+		#profile-picture {
+			height: 220px
+		}
+
+		.project-container {
+			width: 70%;
+		}
+
+	}
+
+	@media screen and (max-width: 1050px) {
+
+		#profile-picture {
+			height: 150px
+		}
+
+		.project-container {
+			width: 95%;
+		}
+
+	}
 
 </style>
