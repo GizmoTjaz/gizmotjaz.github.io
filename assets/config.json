@@ -42,8 +42,8 @@
         },
         {
             "name": "Gizmo Music",
-            "url": "https://github.com/GizmoDevelopment/gizmo-music",
-            "description": "Local music player with theming support, Gizmo accounts, playlists and other wonderful features.",
+            "url": "https://www.gizmo.moe/software/gizmomusic",
+            "description": "Local music player with theming support, playlists and other wonderful features.",
             "languages": [
                 "js",
                 "jquery",
