@@ -55,7 +55,7 @@
         },
         {
             "name": "Gizmo Music",
-			"logo": "https://raw.githubusercontent.com/GizmoTjaz/gizmo-music/master/assets/icons/png/icon.png?token=AF7KHFXXHFH2DN2IWMQ2N43ARKXQ4",
+			"logo": "https://gizmo.moe/assets/icons/gizmomusic.png",
             "url": "https://www.gizmo.moe/software/gizmomusic",
             "description": "Local music player with theming support, playlists and other wonderful features.",
             "languages": [
