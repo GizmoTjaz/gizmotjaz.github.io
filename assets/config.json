@@ -2,7 +2,7 @@
     "personalProjects": [
         {
             "name": "Kyūbu",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/GizmoTjaz/kyuubu/master/logo/Logo.png",
             "url": "https://github.com/GizmoTjaz/kyuubu",
             "description": "A 3D shape renderer written in TypeScript using the HTML canvas.",
             "languages": [
@@ -12,7 +12,7 @@
         },
         {
             "name": "Yomu",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/GizmoTjaz/yomu/master/assets/icon/ios/icon.png",
             "url": "https://github.com/GizmoTjaz/yomu",
             "description": "Mobile manga reading app built using React Native.",
             "languages": [
@@ -22,7 +22,7 @@
         },
 		{
             "name": "Ramune",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/GizmoDevelopment/ramune/690925c1717bf4965fb1461910a18d8172e5778a/src/assets/icons/logo.svg",
             "url": "https://github.com/GizmoDevelopment/ramune",
             "description": "Watch anime together with your friends.",
             "languages": [
@@ -32,6 +32,7 @@
         },
         {
             "name": "BadAppleJS",
+			"logo": "https://user-images.githubusercontent.com/25076630/107957733-51ef7f00-6fa1-11eb-8a06-13376a242c6a.gif",
             "url": "https://github.com/GizmoTjaz/bad-apple",
             "description": "Plays Bad Apple inside your terminal, because why not?",
             "languages": [
@@ -42,7 +43,7 @@
     "gizmoProjects": [
         {
             "name": "Gizmo Browser",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/GizmoDevelopment/gizmo-browser/master/assets/icons/png/icon.png",
             "url": "https://github.com/GizmoDevelopment/gizmo-browser",
             "description": "Simplistic web browser with theming support and auto-update.",
             "languages": [
@@ -55,7 +56,7 @@
         },
         {
             "name": "Gizmo Music",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/GizmoTjaz/gizmo-music/master/assets/icons/png/icon.png?token=AF7KHFXXHFH2DN2IWMQ2N43ARKXQ4",
             "url": "https://www.gizmo.moe/software/gizmomusic",
             "description": "Local music player with theming support, playlists and other wonderful features.",
             "languages": [
