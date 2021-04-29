@@ -1,7 +1,10 @@
 <template>
     <div class="project-card">
         <div class="project-details">
-            <h2 class="project-title">{{ project.name }}</h2>
+			<div class="project-info">
+				<img v-if="project.logo" :src="project.logo" class="project-logo">
+            	<h2 class="project-title">{{ project.name }}</h2>
+			</div>
             <p>{{ project.description }}</p>
         </div>
         <div class="project-languages-container">
@@ -66,8 +69,16 @@
         padding-left: 15px;
     }
 
+	.project-info {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-content: center;
+	}
+
     .project-title {
         margin-top: 15px;
+		margin-bottom: 5px;
     }
 
     .project-languages-container {
@@ -91,11 +102,20 @@
         padding-bottom: 10px;
     }
 
+	.project-logo {
+		width: auto;
+		height: 29px;
+	}
+
     @media screen and (max-width: 1050px) {
         
         .project-title {
             font-size: 15px;
         }
+
+		.project-logo {
+			height: 15px;
+		}
 
     }
 
