@@ -39,7 +39,6 @@
 		components: {
 			ProjectCard
 		},
-		layout: "default",
 		data () {
 			return {
 				profilePicture: null
