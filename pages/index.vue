@@ -1,52 +1,63 @@
 <template>
-  <div id="container">
-    <div v-if="profilePicture">
-      <img id="profile-picture" :src="profilePicture" alt="My GitHub profile picture">
-    </div>
-    <h1>Personal Projects</h1>
-    <div class="project-container" v-for="(project, index) in personalProjects" :key="index">
-      <ProjectCard :project="project" />
-    </div>
-    <h1>Gizmo Projects</h1>
-    <div class="project-container" v-for="(project, index) in gizmoProjects" :key="index">
-      <ProjectCard :project="project" />
-    </div>
-  </div>
+	<div id="container">
+		<div v-if="profilePicture">
+			<img
+				id="profile-picture"
+				:src="profilePicture"
+				alt="My GitHub profile picture"
+			>
+		</div>
+		<h1>Personal Projects</h1>
+		<div
+			v-for="(project, index) in personalProjects"
+			:key="index"
+			class="project-container"
+		>
+			<ProjectCard :project="project" />
+		</div>
+		<h1>Gizmo Projects</h1>
+		<div
+			v-for="(project, index) in gizmoProjects"
+			:key="index"
+			class="project-container"
+		>
+			<ProjectCard :project="project" />
+		</div>
+	</div>
 </template>
 
 <script>
 
-  // Components
-  import ProjectCard from "../components/ProjectCard";
+	// Components
+	import ProjectCard from "../components/ProjectCard.vue";
 
-  // Variables
-  import config from "../assets/config.json";
+	// Variables
+	import projects from "../assets/data/projects.json";
 
-  export default {
-    name: "index",
-    components: {
-      ProjectCard
-    },
-    data () {
-      return {
-        profilePicture: null
-      };
-    },
-    computed: {
-      personalProjects: () => config.personalProjects,
-      gizmoProjects: () => config.gizmoProjects
-    },
-    async mounted () {
-
-      const pfp = await this.$axios.$get("https://api.github.com/users/GizmoTjaz");
-      this.profilePicture = pfp.avatar_url;
-
-    }
-  }
+	export default {
+		name: "Index",
+		components: {
+			ProjectCard
+		},
+		layout: "default",
+		data () {
+			return {
+				profilePicture: null
+			};
+		},
+		computed: {
+			personalProjects: () => projects.personalProjects,
+			gizmoProjects: () => projects.gizmoProjects
+		},
+		async mounted () {
+			const pfp = await this.$axios.$get("https://api.github.com/users/GizmoTjaz");
+			this.profilePicture = pfp.avatar_url;
+		}
+	};
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 	#container {
 		display: flex;
@@ -54,17 +65,17 @@
 		align-items: center;
 	}
 
+	#profile-picture {
+		width: auto;
+		height: 330px;
+		border-radius: 50%;
+		margin-top: 2rem;
+	}
+
 	.project-container {
 		width: 40%;
 		display: flex;
 		flex-direction: column;
-	}
-
-	#profile-picture {
-		width: auto;
-		height: 330px;
-		border-radius: 100%;
-		margin-top: 20px;
 	}
 
 	@media screen and (max-width: 1950px) {

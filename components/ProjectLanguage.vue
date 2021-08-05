@@ -1,26 +1,31 @@
 <template>
-    <img
-        :src="languageIcon"
-        :alt="language"
-        draggable="false"
-        :class="language"
-    >
+	<img
+		:src="languageIcon"
+		:alt="language"
+		draggable="false"
+		:class="language"
+	>
 </template>
 
 <script>
 
-    // Variables
-    import config from "../assets/config.json";
+	// Variables
+	import languages from "../assets/data/languages.json";
 
-    export default {
-        name: "ProjectLanguage",
-        props: [ "language" ],
-        computed: {
-            languageIcon () {
-                return config.languages[this.language];
-            }
-        }
-    }
+	export default {
+		name: "ProjectLanguage",
+		props: {
+			language: {
+				type: String,
+				required: true
+			}
+		},
+		computed: {
+			languageIcon () {
+				return languages[this.language];
+			}
+		}
+	};
 
 </script>
 
@@ -32,13 +37,13 @@
         border-radius: 5px;
         margin-left: 3px;
     }
-    
+
     .electron {
         background-color: #EEE;
     }
 
     @media screen and (max-width: 1050px) {
-        
+
         img {
             width: 15px;
             height: 15px;
