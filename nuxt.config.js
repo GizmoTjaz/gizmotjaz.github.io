@@ -12,7 +12,7 @@ export default {
 		],
 		link: [],
 		script: [
-			{ src: "https://unpkg.com/ionicons@5.4.0/dist/ionicons.js" }
+			{ src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" }
 		]
 	},
 	css: [
