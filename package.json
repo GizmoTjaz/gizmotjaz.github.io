@@ -1,0 +1,22 @@
+{
+  "name": "gizmotjaz.github.io",
+  "version": "1.1.0",
+  "private": true,
+  "author": {
+	"name": "Tjaz (GizmoTjaz)"
+   },
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "nuxt3": "latest",
+    "sass-loader": "^12.4.0"
+  },
+  "dependencies": {
+    "sass": "^1.47.0"
+  }
+}
