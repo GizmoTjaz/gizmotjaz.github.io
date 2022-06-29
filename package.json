@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-	"lint": "eslint --ext .ts,.vue ."
+	"lint": "eslint --ext .ts,.vue .",
+	"lint:fix": "eslint --ext .ts,.vue --fix ."
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
