@@ -3,13 +3,14 @@
 		"eslint:recommended"
 	],
 	"rules": {
+		"eol-last": "off",
+		"no-tabs": "off",
+		"quotes": [ "error" ],
+		"semi": [ "error" ],
 		"indent": [ "error", "tab", {
 			"SwitchCase": 1,
 			"offsetTernaryExpressions": true
 		}],
-		"no-tabs": "off",
-		"quotes": [ "error" ],
-		"semi": [ "error" ],
 		"space-infix-ops": [ "error" ],
 		"naming-convention": [ "error",
 			{

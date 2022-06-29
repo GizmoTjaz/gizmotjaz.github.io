@@ -8,12 +8,13 @@
 		"@typescript-eslint"
 	],
 	"rules": {
+		"eol-last": "off",
+		"no-tabs": "off",
 		"indent": "off",
 		"@typescript-eslint/indent": [ "error", "tab", {
 			"SwitchCase": 1,
 			"offsetTernaryExpressions": true
 		}],
-		"no-tabs": "off",
 		"quotes": "off",
 		"@typescript-eslint/quotes": [ "error" ],
 		"semi": "off",
