@@ -1,0 +1,61 @@
+{
+	"extends": [
+		"eslint:recommended"
+	],
+	"rules": {
+		"indent": [ "error", "tab", {
+			"SwitchCase": 1,
+			"offsetTernaryExpressions": true
+		}],
+		"no-tabs": "off",
+		"quotes": [ "error" ],
+		"semi": [ "error" ],
+		"space-infix-ops": [ "error" ],
+		"naming-convention": [ "error",
+			{
+				"selector": [ "variableLike", "function" ],
+				"format": [ "camelCase", "UPPER_CASE" ],
+				"leadingUnderscore": "allow"
+			},
+			{
+				"selector": "memberLike",
+				"modifiers": [ "private" ],
+				"format": [ "camelCase" ],
+				"leadingUnderscore": "require"
+			},
+			{
+				"selector": "typeLike",
+				"format": [ "PascalCase" ]
+			}
+		],
+		"member-delimiter-style": [ "error", {
+			"multiline": {
+				"delimiter": "semi"
+			},
+			"singleline": {
+				"delimiter": "semi"
+			}
+		}],
+		"type-annotation-spacing": [ "error", {
+			"overrides": {
+				"colon": {
+					"before": false,
+					"after": true
+				},
+				"arrow": {
+					"before": true,
+					"after": true
+				}
+			}
+		}],
+		"space-before-function-paren": [ "error" ],
+		"explicit-function-return-type": [ "error", {
+			"allowExpressions": true
+		}],
+		"member-ordering": [ "error", {
+			"classExpressions": {
+				"order": "alphabetically"
+			}
+		}]
+	}
+}
