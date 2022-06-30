@@ -71,6 +71,8 @@
 		"@typescript-eslint/consistent-type-imports": [ "error" ],
 		"@typescript-eslint/consistent-type-exports": [ "error" ],
 		"padded-blocks": "off",
-		"array-bracket-spacing": [ "error", "always" ]
+		"array-bracket-spacing": [ "error", "always" ],
+		"no-unused-vars": "off",
+		"one-var": [ "error", "always" ]
 	}
 }

@@ -59,6 +59,7 @@
 			}
 		}],
 		"padded-blocks": "off",
-		"array-bracket-spacing": [ "error", "always" ]
+		"array-bracket-spacing": [ "error", "always" ],
+		"one-var": [ "error", "always" ]
 	}
 }
