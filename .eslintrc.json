@@ -18,5 +18,9 @@
 	"plugins": [
 		"vue",
 		"@typescript-eslint"
-	]
+	],
+	"globals": {
+		"$fetch": true,
+		"$nuxt": true
+	}
 }
