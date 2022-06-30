@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div class="content-container">
 		<section v-if="name && avatarUrl">
-			<ProfileAvatar :src="avatarUrl" />
+			<ProfileAvatar :url="avatarUrl" />
 			<h1>{{ name }}</h1>
 		</section>
 	</div>
@@ -42,3 +42,14 @@
 	});
 
 </script>
+
+<style lang="scss">
+
+	.content-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+</style>
