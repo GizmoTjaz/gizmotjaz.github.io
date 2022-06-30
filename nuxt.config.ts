@@ -11,5 +11,8 @@ export default defineNuxtConfig({
 		plugins: [
 			eslintPlugin()
 		]
+	},
+	alias: {
+		"@components": "/components"
 	}
 });
