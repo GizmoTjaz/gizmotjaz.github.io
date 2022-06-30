@@ -58,6 +58,7 @@
 				"order": "alphabetically"
 			}
 		}],
-		"padded-blocks": "off"
+		"padded-blocks": "off",
+		"array-bracket-spacing": [ "error", "always" ]
 	}
 }

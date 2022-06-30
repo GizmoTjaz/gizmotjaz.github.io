@@ -70,6 +70,7 @@
 		}],
 		"@typescript-eslint/consistent-type-imports": [ "error" ],
 		"@typescript-eslint/consistent-type-exports": [ "error" ],
-		"padded-blocks": "off"
+		"padded-blocks": "off",
+		"array-bracket-spacing": [ "error", "always" ]
 	}
 }
