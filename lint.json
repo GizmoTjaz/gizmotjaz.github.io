@@ -57,6 +57,7 @@
 			"classExpressions": {
 				"order": "alphabetically"
 			}
-		}]
+		}],
+		"padded-blocks": "off"
 	}
 }
