@@ -14,5 +14,10 @@ export default defineNuxtConfig({
 	},
 	alias: {
 		"@components": "/components"
+	},
+	runtimeConfig: {
+		public: {
+			GITHUB_USERNAME: process.env.GITHUB_USERNAME
+		}
 	}
 });
