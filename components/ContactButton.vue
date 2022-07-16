@@ -1,9 +1,8 @@
 <template>
-	<img
+	<inline-svg
 		class="contact-icon"
 		:src="iconUrl"
-		:alt="altText"
-	>
+	/>
 </template>
 
 <script lang="ts">
@@ -11,8 +10,14 @@
 	// Modules
 	import { defineComponent } from "vue";
 
+	// Components
+	import InlineSvg from "vue-inline-svg";
+
 	export default defineComponent({
 		name: "ContactButton",
+		components: {
+			InlineSvg
+		},
 		props: {
 			service: {
 				type: String,
@@ -35,6 +40,8 @@
 
 	.contact-icon {
 		color: #FFF;
+		width: 1rem;
+		height: 1rem;
 	}
 
 </style>
