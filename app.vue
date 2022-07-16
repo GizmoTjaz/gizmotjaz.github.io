@@ -4,7 +4,11 @@
 			<Head>
 				<Title>{{ name }}</Title>
 			</Head>
-			<ProfileAvatar :url="avatarUrl" />
+			<img
+				class="profile-avatar"
+				:src="avatarUrl"
+				alt="Profile picture"
+			>
 			<div class="information-container">
 				<h1 class="name-label">{{ name }}</h1>
 				<section class="contact-container">
@@ -21,7 +25,6 @@
 	import { defineComponent } from "vue";
 
 	// Local Components
-	import ProfileAvatar from "@components/ProfileAvatar.vue";
 	import ContactButton from "@components/ContactButton.vue";
 
 	// Types
@@ -33,7 +36,6 @@
 	export default defineComponent({
 		name: "App",
 		components: {
-			ProfileAvatar,
 			ContactButton
 		},
 		data () {
@@ -95,10 +97,10 @@
 
 	.profile-container {
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		width: 80%;
+	.profile-avatar {
+		width: auto;
+		height: 200px;
+		border-radius: 50%;
 	}
 
 	.information-container {
