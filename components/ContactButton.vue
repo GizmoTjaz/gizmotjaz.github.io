@@ -1,5 +1,5 @@
 <template>
-	<a :href="url">
+	<a class="contact-anchor" :href="url">
 		<inline-svg
 			class="contact-icon"
 			:src="iconUrl"
@@ -44,10 +44,14 @@
 
 <style lang="scss" scoped>
 
+	.contact-anchor,
+	.contact-icon {
+		width: auto;
+		height: 100%;
+	}
+
 	.contact-icon {
 		color: #FFF;
-		width: 1rem;
-		height: 1rem;
 	}
 
 </style>
