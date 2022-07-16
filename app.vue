@@ -63,8 +63,23 @@
 
 <style lang="scss">
 
+	@font-face {
+		font-family: "Roboto";
+		src: url("~/assets/fonts/Roboto-Regular.ttf") format("truetype");
+		font-weight: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Roboto";
+		src: url("~/assets/fonts/Roboto-Bold.ttf") format("truetype");
+		font-weight: bold;
+		font-display: swap;
+	}
+
 	body {
 		background-color: #0d0d0d;
+		font-family: Roboto;
 	}
 
 	h1 {
