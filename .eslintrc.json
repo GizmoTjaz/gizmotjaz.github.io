@@ -1,12 +1,13 @@
 {
+	"root": true,
 	"env": {
 		"browser": true,
 		"node": true
 	},
 	"extends": [
 		"@nuxtjs/eslint-config-typescript",
-		"./tslint.json",
-		"./vuelint.json"
+		"plugin:@gizmo-dev/typescript",
+		"plugin:@gizmo-dev/vue"
 	],
 	"parserOptions": {
 		"ecmaVersion": 6,
