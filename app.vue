@@ -8,7 +8,7 @@
 			<div class="information-container">
 				<h1 class="name-label">{{ name }}</h1>
 				<section class="contact-container">
-					<ContactButton service="github" />
+					<ContactButton service="github" :url="githubUrl" />
 				</section>
 			</div>
 		</section>
@@ -42,9 +42,17 @@
 				avatarUrl: null as string | null
 			};
 		},
+		computed: {
+			githubUsername (): string {
+				return $nuxt.$config.public.GITHUB_USERNAME;
+			},
+			githubUrl (): string {
+				return `https://www.github.com/${this.githubUsername}`;
+			}
+		},
 		async mounted () {
 
-			const res = await $fetch<GitHubResponse>(`https://api.github.com/users/${$nuxt.$config.public.GITHUB_USERNAME}`);
+			const res = await $fetch<GitHubResponse>(`https://api.github.com/users/${this.githubUsername}`);
 
 			this.name = res.name;
 			this.avatarUrl = res.avatar_url;
