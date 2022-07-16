@@ -6,6 +6,7 @@
 	},
 	"extends": [
 		"@nuxtjs/eslint-config-typescript",
+		"plugin:nuxt/recommended",
 		"plugin:@gizmo-dev/typescript",
 		"plugin:@gizmo-dev/vue"
 	],
@@ -17,6 +18,7 @@
 		"extraFileExtensions": [ ".vue" ]
 	},
 	"plugins": [
+		"nuxt",
 		"vue",
 		"@typescript-eslint"
 	],
