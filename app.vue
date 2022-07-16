@@ -96,7 +96,15 @@
 	}
 
 	.profile-container {
+
 		display: flex;
+
+		width: 600px;
+		padding: 1.5em;
+		background-color: #281d33;
+		border-radius: 1em;
+	}
+
 	.profile-avatar {
 		width: auto;
 		height: 200px;
@@ -104,24 +112,52 @@
 	}
 
 	.information-container {
+
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: center;
-		padding-left: 2rem;
+		align-items: flex-start;
+
+		flex: 1;
+		padding-left: 2em;
 	}
 
 	.name-label {
-		font-size: 4rem;
+		font-size: 4em;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	.contact-container {
+
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: center;
+
 		width: 100%;
 		height: 2.5em;
+	}
+
+	@media only screen and (max-width: calc(600px + 2 * 1.5em + 1em)) {
+
+		.profile-container {
+			width: 90%;
+		}
+
+		.name-label {
+			font-size: 3em;
+			margin-bottom: 1rem;
+		}
+
+		.profile-avatar {
+			height: 150px;
+		}
+
+		.contact-container {
+			height: 2em;
+		}
+
 	}
 
 </style>
