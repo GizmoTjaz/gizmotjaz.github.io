@@ -1,8 +1,10 @@
 <template>
-	<inline-svg
-		class="contact-icon"
-		:src="iconUrl"
-	/>
+	<a :href="url">
+		<inline-svg
+			class="contact-icon"
+			:src="iconUrl"
+		/>
+	</a>
 </template>
 
 <script lang="ts">
@@ -22,6 +24,10 @@
 			service: {
 				type: String,
 				required: true
+			},
+			url: {
+				type: String,
+				default: ""
 			}
 		},
 		computed: {
