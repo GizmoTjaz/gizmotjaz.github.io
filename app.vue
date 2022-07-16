@@ -103,6 +103,8 @@
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: center;
+		width: 100%;
+		height: 2.5em;
 	}
 
 </style>
