@@ -8,5 +8,8 @@
   ],
   "ignoreDeps": [
     "@types/node"
+  ],
+  "baseBranches": [
+    "dev"
   ]
 }
