@@ -32,6 +32,27 @@
             ]
         },
         {
+            "name": "fotobooru",
+            "url": "https://github.com/GizmoTjaz/fotobooru/",
+            "description": "Minimalistic image posting website.",
+            "languages": [
+                "svelte",
+                "css",
+                "ts",
+                "php"
+            ]
+        },
+        {
+            "name": "web-draw",
+            "url": "https://gizmotjaz.github.io/web-draw/",
+            "description": "Simple browser-based animation drawing tool.",
+            "languages": [
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
             "name": "Bad Apple",
             "url": "https://github.com/GizmoTjaz/bad-apple",
             "description": "An NPM package that can play Bad Apple inside your terminal.",
