@@ -6,9 +6,9 @@
             "url": "https://github.com/GizmoDevelopment/ramune",
             "description": "Watch anime together with your friends.",
             "languages": [
-                "ts",
-                "vue",
                 "vite",
+                "vue",
+                "ts",
                 "scss"
             ]
         },
@@ -36,10 +36,11 @@
             "url": "https://github.com/GizmoTjaz/fotobooru/",
             "description": "Minimalistic image posting website.",
             "languages": [
+                "php",
+                "mysql",
                 "svelte",
-                "css",
                 "ts",
-                "php"
+                "css"
             ]
         },
         {
@@ -47,9 +48,9 @@
             "url": "https://gizmotjaz.github.io/web-draw/",
             "description": "Simple browser-based animation drawing tool.",
             "languages": [
+                "js",
                 "html",
-                "css",
-                "js"
+                "css"
             ]
         },
         {
@@ -68,9 +69,9 @@
             "url": "https://www.gizmo.moe/software/gizmomusic",
             "description": "Local music player with theming support, playlists and other wonderful features.",
             "languages": [
-                "js",
+                "electron",
                 "jquery",
-                "electron"
+                "js"
             ]
         },
         {
@@ -79,9 +80,9 @@
             "url": "https://github.com/GizmoDevelopment/gizmo-browser",
             "description": "Simplistic web browser with theming support and auto-update.",
             "languages": [
-                "js",
+                "electron",
                 "react",
-                "electron"
+                "js"
             ]
         }
     ]
