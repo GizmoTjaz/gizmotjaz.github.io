@@ -1,17 +1,20 @@
 {
     "personalProjects": [
         {
-            "name": "Kyūbu",
-			"logo": "https://raw.githubusercontent.com/GizmoTjaz/kyuubu/master/logo/Logo.png",
-            "url": "https://github.com/GizmoTjaz/kyuubu",
-            "description": "A 3D shape renderer written in TypeScript using the HTML canvas.",
+            "name": "Ramune",
+            "logo": "https://raw.githubusercontent.com/GizmoDevelopment/ramune/690925c1717bf4965fb1461910a18d8172e5778a/src/assets/icons/logo.svg",
+            "url": "https://github.com/GizmoDevelopment/ramune",
+            "description": "Watch anime together with your friends.",
             "languages": [
-                "ts"
+                "ts",
+                "vue",
+                "vite",
+                "scss"
             ]
         },
         {
             "name": "Yomu",
-			"logo": "https://raw.githubusercontent.com/GizmoTjaz/yomu/master/assets/icon/ios/icon.png",
+            "logo": "https://raw.githubusercontent.com/GizmoTjaz/yomu/master/assets/icon/ios/icon.png",
             "url": "https://github.com/GizmoTjaz/yomu",
             "description": "Mobile manga reading app built using React Native.",
             "languages": [
@@ -19,16 +22,13 @@
                 "react-native"
             ]
         },
-		{
-            "name": "Ramune",
-			"logo": "https://raw.githubusercontent.com/GizmoDevelopment/ramune/690925c1717bf4965fb1461910a18d8172e5778a/src/assets/icons/logo.svg",
-            "url": "https://github.com/GizmoDevelopment/ramune",
-            "description": "Watch anime together with your friends.",
+        {
+            "name": "Kyūbu",
+			"logo": "https://raw.githubusercontent.com/GizmoTjaz/kyuubu/master/logo/Logo.png",
+            "url": "https://github.com/GizmoTjaz/kyuubu",
+            "description": "A 3D shape renderer written in TypeScript using the HTML canvas.",
             "languages": [
-                "ts",
-                "vue",
-				"vite",
-				"scss"
+                "ts"
             ]
         },
         {
@@ -42,6 +42,17 @@
     ],
     "gizmoProjects": [
         {
+            "name": "Gizmo Music",
+            "logo": "https://gizmo.moe/assets/icons/gizmomusic.png",
+            "url": "https://www.gizmo.moe/software/gizmomusic",
+            "description": "Local music player with theming support, playlists and other wonderful features.",
+            "languages": [
+                "js",
+                "jquery",
+                "electron"
+            ]
+        },
+        {
             "name": "Gizmo Browser",
 			"logo": "https://raw.githubusercontent.com/GizmoDevelopment/gizmo-browser/master/assets/icons/png/icon.png",
             "url": "https://github.com/GizmoDevelopment/gizmo-browser",
@@ -49,17 +60,6 @@
             "languages": [
                 "js",
                 "react",
-                "electron"
-            ]
-        },
-        {
-            "name": "Gizmo Music",
-			"logo": "https://gizmo.moe/assets/icons/gizmomusic.png",
-            "url": "https://www.gizmo.moe/software/gizmomusic",
-            "description": "Local music player with theming support, playlists and other wonderful features.",
-            "languages": [
-                "js",
-                "jquery",
                 "electron"
             ]
         }
